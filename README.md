@@ -13,7 +13,7 @@ All three games are built on one shared toolkit (`toolkit.asm`) for drawing pixe
 ## Requirements
 
 - **Java** 8 or newer (MARS is a Java program)
-- **MARS 4.5** (`Mars4_5.jar`), available from [Missouri State University](https://computerscience.missouristate.edu/mars-mips-simulator.htm)
+- **MARS 4.5** (`Mars4_5.jar`)
 
 ## Download
 
