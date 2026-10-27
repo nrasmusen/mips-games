@@ -113,3 +113,13 @@ These are `.eqv` lines near the top of each game file:
 - **Font:** each character is a 3×5 picture stored as 15 bits in a single word, drawn bit by bit.
 - **Blackjack deck:** cards are drawn by picking a random slot in the remaining deck, then moving the last card into that slot. A drawn card can't come up again, and no shuffle is needed.
 - **Procedures:** everything follows standard MIPS conventions. Arguments go in `$a0–$a3`, results in `$v0/$v1`, and any procedure that calls another saves `$ra` and the `$s` registers it uses on the stack.
+
+## AI Disclosure
+
+This project was built with help from Claude AI (Anthropic):
+
+- Claude helped me plan how to approach each game and turn my design ideas into a structure to build from.
+- Claude wrote reference MIPS code for the shared toolkit and all three games. I used it as a reference while building Tic-Tac-Toe and Blackjack, and Claude wrote most of Snake directly.
+- Claude walked me through the code step by step so I understood what each part was doing.
+- I set up, ran, and play-tested every game in MARS.
+- The `.asm` files in this repository are condensed versions with fewer comments for easier reading. Claude created them, and Claude also wrote this README.
